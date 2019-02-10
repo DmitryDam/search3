@@ -1,0 +1,136 @@
+body {
+  background: linear-gradient(#122b3f, #285d87);
+  padding-top: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+li {
+  list-style: none;
+  margin: auto;
+}
+.nameBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemNumber {
+  padding-right: 20px;
+  color: gray;
+  max-width: 30px;
+}
+.countPub {
+  padding-right: 20px;
+  color: gray;
+  margin: 0;
+}
+.itemFirstLetter {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 29px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 1px 1px 48px 24px rgba(211, 211, 214, 0.89);
+}
+.medal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  margin: 0;
+}
+
+.pageNumbers {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #285d87;
+}
+
+.pageNumbers > li {
+  margin-right: 0.3em;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.pageNumbers > li:hover {
+  color: red;
+}
+
+.searchInput {
+  padding-left: 50px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 80px;
+  font-size: 20px;
+  background-color: #e9eef2;
+  background-image: url(../img/search.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 15px;
+}
+.inputContainer {
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+}
+.olContainer {
+  padding-left: 10px;
+  padding-right: 20px;
+  margin-top: 0;
+}
+.olContainer > li:nth-of-type(even) {
+  background: #f5f6fa;
+}
+.olContainer > li:nth-of-type(odd) {
+  background: white;
+}
+.olContainer > li:nth-child(10n + 1) .product .nameBlock .itemFirstLetter {
+  background: #67c7e1;
+}
+.olContainer > li:nth-child(10n + 2) .product .nameBlock .itemFirstLetter {
+  background: #b96fc8;
+}
+.olContainer > li:nth-child(10n + 3) .product .nameBlock .itemFirstLetter {
+  background: #e1946f;
+}
+.olContainer > li:nth-child(10n + 4) .product .nameBlock .itemFirstLetter {
+  background: #59a8e7;
+}
+.olContainer > li:nth-child(10n + 5) .product .nameBlock .itemFirstLetter {
+  background: #ac4e61;
+}
+.olContainer > li:nth-child(10n + 6) .product .nameBlock .itemFirstLetter {
+  background: #9cc07e;
+}
+.olContainer > li:nth-child(10n + 7) .product .nameBlock .itemFirstLetter {
+  background: #af527c;
+}
+.olContainer > li:nth-child(10n + 8) .product .nameBlock .itemFirstLetter {
+  background: #345eea;
+}
+.olContainer > li:nth-child(10n + 9) .product .nameBlock .itemFirstLetter {
+  background: #69d3dd;
+}
+.olContainer > li:nth-child(10n + 10) .product .nameBlock .itemFirstLetter {
+  background: #c1d990;
+}
